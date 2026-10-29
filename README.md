@@ -1,7 +1,7 @@
 # PGC-04: Synchronization Mechanisms in Parallel Programs
 
 > **Course:** Parallel and GPU Computing (PGC)  
-> **Author:** Humeira  
+> **Author:** Humera  
 > **USN:** `01FE24BCI114`   
 > **Repository:** `PGC-04-Synchronization-Mechanisms`
 
