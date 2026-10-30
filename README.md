@@ -810,3 +810,36 @@ This experiment demonstrated the importance of synchronization mechanisms in mul
 Critical sections, atomic operations, locks, and semaphores helped ensure correct access to shared resources. Among the mechanisms tested, atomic operations provided a good balance of correctness and performance for simple shared-variable updates. Critical sections and locks introduced additional overhead because threads had to wait to access the protected region.
 
 The barrier mechanism synchronized threads at specific execution points but did not directly protect shared data. Semaphores provided controlled access to shared resources. Overall, the experiment demonstrated that selecting an appropriate synchronization mechanism is essential for maintaining correctness and understanding the performance and scalability of multithreaded programs.
+
+## 12. Project Directory Structure
+
+```
+Synchronization-Mechanisms
+│
+├── .gitignore
+├── README.md
+│
+├── src/
+│   ├── race.c
+│   ├── critical.c
+│   ├── atomic.c
+│   ├── barrier.c
+│   ├── semaphore.c
+│   └── compare_sync.c
+│
+├── scripts/
+│   ├── benchmark_visualizer.py
+│   └── pgc_automation.sh
+│
+└── results/
+    ├── figures/
+    │   ├── synchronization_correctness.png
+    │   ├── synchronization_execution_time.png
+    │   ├── synchronization_final_counter.png
+    │   └── synchronization_methods_time.png
+    │
+    └── images/
+        ├── 01_Installation_and_Basic_Programs.png
+        ├── 02_Synchronization_Mechanisms_Complete_Execution.png
+        └── 03_Synchronization_Comparison_Results.png
+```
